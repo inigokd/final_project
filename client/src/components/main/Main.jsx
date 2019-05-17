@@ -1,19 +1,17 @@
 import React from "react";
-import Header from "../header/Header";
-import Slider from "../slider/Slider"
+import Header from "./Header";
+import Slider from "./Slider"
+import Navigation from '../navigation/Navigation';
 
 const Main = props => {
-     return(
-            <div>
-            <form action="" method="POST">
-                <div>
-                    <Header />
-                    <Slider />
-                </div>
-            </form>
+    return (
+        <div>
+            <Header />
+            <Slider />
+            <Navigation />
         </div>
-        )
+    )
 }
-       
+
 
 export default Main;

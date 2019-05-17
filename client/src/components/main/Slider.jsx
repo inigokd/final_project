@@ -13,7 +13,7 @@ class SlideImg extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bgimg: "/slider/img/main3.jpg"
+            bgimg: "img/slider/main3.jpg"
         };
         this.imgs = [
             "/img/slider/main3.jpg",

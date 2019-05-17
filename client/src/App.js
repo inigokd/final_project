@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 import Main from "../src/components/main/Main"
-import Navigation from './components/navigation/Navigation';
-// import MainManu from './components/mainManu/MainManu'
-
+import Auth from "../src/components/auth/Auth"
+import Cart from "../src/components/cart/Cart"
+import { Link, Router } from "@reach/router";
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Main />
-        <Navigation />
-        {/* <MainManu /> */}
-      </div>
+        <Router>
+            <Auth path="/auth" />
+            <Cart path="/cart" />
+            <Main path="/*" />
+        </Router>
     );
   }
 }
