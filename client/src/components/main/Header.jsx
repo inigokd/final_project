@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
-import Categories from "./Categories";
+import Categories from "./categories/Categories";
 
 
 class Header extends React.Component {
@@ -37,8 +37,8 @@ class Header extends React.Component {
                                     <div className="search ">
                                         <input type="text" className="search-input" />
                                         <button className="btn">
-                                        <i class="fas fa-search font-35"></i>
-                                        {/* <i class="fas fa-arrow-circle-right font-35"></i> */}
+                                        {/* <i class="fas fa-search font-35 m-l-30"></i> */}
+                                        <i class="fas fa-arrow-circle-right font-35"></i>
                                         </button>
                                     </div>
                                     <div className="account">
@@ -51,7 +51,17 @@ class Header extends React.Component {
                                     <div className="cart">
                                         <Link to="/cart">
                                             <button className="btn">
-                                                <i class="fas fa-shopping-cart font-15 m-l-30"></i>
+                                                <i class="fas fa-shopping-cart font-15 m-l-30">
+                                                    <span className="counter-number">0</span>
+                                                </i>
+
+                                            </button>
+                                        </Link>
+                                    </div>
+                                    <div className="admin">
+                                        <Link to="/admin">
+                                            <button className="btn">
+                                            <i class="fas fa-user-lock font-15 m-l-30"></i>
                                             </button>
                                         </Link>
                                     </div>

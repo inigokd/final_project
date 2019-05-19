@@ -1,0 +1,104 @@
+
+.cart-conteiner {
+    height: 110px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+
+}
+
+
+.shopping {
+    font-size: 24px;
+    float: left;
+    margin-bottom: 40px;
+}
+.balance {
+    float: right;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+.basket-conteiner {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.shopping-basket {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table {
+    width: 100%;
+    padding-bottom: 20px;
+}
+th {
+    padding-bottom: 20px; 
+    border-bottom: 1px solid grey;
+}
+.w-15 {
+    width: 15%;
+    text-align: right;
+}
+.w-25 {
+    width: 25%;
+    text-align: left;
+}
+.w-30 {
+    width: 30%;
+    text-align: left;
+}
+.delete-btn {
+    font-size: 20px;
+    border:none;
+    background-color: white;
+    padding-right: 20px;
+    cursor: pointer;
+}
+#cart-img {
+    width: 120px;
+}
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+.total {
+    text-align: right;
+    width: 100%;
+    float: right;
+}
+.total > th {
+    text-align: right;
+    float: right;
+}
+.checkout {
+    float: right;
+    margin-top: 10px;
+
+}
+.checkout-btn {
+    background-color: rgb(90, 172, 90);
+    padding: 9px 30px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.continue-btn a {
+    text-decoration: none;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 30px;
+    font-size: 14px;
+    color: rgb(80, 79, 79);
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    }
+    .continue-btn {
+    outline: none;
+    border: none;
+    background: none;
+}
