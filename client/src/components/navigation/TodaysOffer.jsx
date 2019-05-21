@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Router } from '@reach/router';
 
 const TodaysOffer = props => {
     return (
@@ -7,6 +8,7 @@ const TodaysOffer = props => {
                 <div className="offer-container flex">
                     <div className="offer-box">
                         <div className="offer-box-contant">
+                            <Link to="/product">
                             <div className="offer-img offer-img1"></div>
                             <div className="reiting">
                                 <i class="fas fa-star"></i>
@@ -23,7 +25,7 @@ const TodaysOffer = props => {
                             <div className="offer-btns">
                                 <button className="details-btn">Details</button>
                                 <button className="add-btn">Add to chat</button>
-                            </div>
+                            </div></Link>
                         </div>
                     </div>
                     <div className="offer-box">

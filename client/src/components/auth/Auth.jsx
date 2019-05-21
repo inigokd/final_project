@@ -18,40 +18,42 @@ const Auth = props => {
                             <form action="">
                                 <div className="username m-b-30">
                                     <label htmlFor="">Username *</label>
-                                    <input type="text" className=""/>
+                                    <input name="username" type="text" className=""/>
                                 </div>
                                 <div className="password m-b-30">
                                     <label htmlFor=""> Password *</label>
-                                    <input type="text" />
+                                    <input name="password" type="text" />
                                 </div>
                                 <div className="login-btn">
-                                    <button>Sign In</button>
+                                    <input name="signIn" type="submit" value="Sign In" placeholder="Sign In"/>
                                 </div>
                             </form>
                         </div>
                     </div>
+
+
                     <div className="signup-contant">
                         <div className="login-title"> New Customer </div>
                         <div className="input-field">
                         <form action="">
                             <div className="username m-b-30">
                                 <label htmlFor="">Username *</label>
-                                <input type="text" />
+                                <input name="username" type="text" />
                             </div>
                             <div className="email m-b-30">
                                 <label htmlFor=""> Email *</label>
-                                <input type="text" />
+                                <input name="email" type="text" />
                             </div>
                             <div className="phone m-b-30">
                                 <label htmlFor="">Mobile Phone *</label>
-                                <input type="phone" />
+                                <input name="phone" type="phone" />
                             </div>
                             <div className="password m-b-30">
                                 <label htmlFor=""> Password *</label>
-                                <input type="text" />
+                                <input name="password" type="text" />
                             </div>
                             <div className="login-btn">
-                                <button>Create an Account</button>
+                                <input name="signUn" type="submit" value="Create New Account" placeholder="Create New Account"/>
                             </div>
                         </form>
                         </div>

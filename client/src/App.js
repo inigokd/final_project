@@ -6,7 +6,8 @@ import Cart from "../src/components/cart/Cart"
 import Admin from "./components/admin/Admin"
 import AddNew from "./components/admin/AddNew"
 import Offer from "./components/admin/Offer"
-import { Link, Router } from "@reach/router";
+import Product from "./components/product/Product"
+import { Router } from "@reach/router";
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class App extends React.Component {
         <Admin path="/admin" />
         <AddNew path="/addnew" />
         <Offer path="/offer" />
+        <Product path="/product" />
         <Main path="/*" />
       </Router>
     );
