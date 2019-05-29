@@ -5,9 +5,10 @@ import Auth from "../src/components/auth/Auth"
 import Cart from "../src/components/cart/Cart"
 import Admin from "./components/admin/Admin"
 import AddNew from "./components/admin/AddNew"
-import Offer from "./components/admin/Offer"
+import AddOffer from "./components/admin/AddOffer"
 import Product from "./components/product/Product"
 import { Router } from "@reach/router";
+import Footer from './components/footer/Footer';
 
 class App extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class App extends React.Component {
         <Cart path="/cart" />
         <Admin path="/admin" />
         <AddNew path="/addnew" />
-        <Offer path="/offer" />
+        <AddOffer path="/addoffer" />
         <Product path="/product" />
         <Main path="/*" />
       </Router>

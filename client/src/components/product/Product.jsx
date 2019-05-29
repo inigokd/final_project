@@ -2,6 +2,7 @@ import React from "react"
 import "./Product.css";
 import { Link, Router } from '@reach/router';
 import Header from "../main/Header";
+import Footer from "../footer/Footer";
 
 const Product = props => {
     return (
@@ -41,6 +42,7 @@ const Product = props => {
                     </div>
                 </form>
             </div>
+            <Footer />
         </div>
     )
 }

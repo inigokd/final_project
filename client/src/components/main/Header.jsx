@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
-import Categories from "./categories/Categories";
+import Categories from "../categories/Categories";
 
 
 class Header extends React.Component {

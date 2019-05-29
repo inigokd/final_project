@@ -19,9 +19,9 @@ click() {
         return (
             <div>
                 <div className="manu-nav">
-                    <button style={{backgroundColor: "black", color: "white"}} onClick={this.state.active}>
+                    {/* <button style={{backgroundColor: "black", color: "white"}} onClick={this.state.active}> */}
                         <Link to="/offer" className="manu-bar">Today's Offer</Link>
-                    </button>
+                    {/* </button> */}
                     <button>
                         <Link to="/popular" className="manu-bar m-l-30">Popular</Link>
                     </button>

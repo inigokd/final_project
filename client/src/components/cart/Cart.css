@@ -1,8 +1,8 @@
 
 .cart-conteiner {
     height: 110px;
-    margin-top: 200px;
-    margin-left: 50px;
+    margin-top: 180px;
+    margin-left: 30px;
     margin-right: 50px;
     position: relative;
 
@@ -10,9 +10,9 @@
 
 
 .shopping {
-    font-size: 24px;
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 .balance {
     float: right;

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Auth.css";
 import Header from "../main/Header";
+import Footer from '../footer/Footer';
 
 const Auth = props => {
 
@@ -60,6 +61,7 @@ const Auth = props => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

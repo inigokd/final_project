@@ -17,6 +17,7 @@ header {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  color: azure
 }
 .header-contant {
   position: fixed;

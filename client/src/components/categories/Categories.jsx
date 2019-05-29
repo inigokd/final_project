@@ -20,14 +20,14 @@ class MainManu extends React.Component {
           <Link to="/smoothies">Smoothie</Link>
           <Link to="/cookies">Cookie</Link>
         </nav>
-        {/* <Router>
+        <Router>
           <MainDish path="/maindish" />;
           <Salads path="/salads" />;
           <Pastas path="/pastas" />
           <Pizzas path="/pizzas" />;
           <Smoothies path="/smoothies" />
           <Cookies path="/cookies" />
-        </Router> */}
+        </Router>
       </div>
     )
 
