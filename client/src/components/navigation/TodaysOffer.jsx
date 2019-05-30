@@ -8,7 +8,7 @@ const TodaysOffer = props => {
                 <div className="offer-container flex">
                     <div className="offer-box">
                         <div className="offer-box-contant">
-                            <Link to="/product">
+                            
                             <div className="offer-img offer-img1"></div>
                             <div className="reiting">
                                 <i class="fas fa-star"></i>
@@ -23,9 +23,11 @@ const TodaysOffer = props => {
                                 <span className="sale">9.90$</span>
                             </div>
                             <div className="offer-btns">
-                                <button className="details-btn">Details</button>
+                                <Link to="/product">
+                                    <button className="details-btn">Details</button>
+                                </Link>
                                 <button className="add-btn">Add to chat</button>
-                            </div></Link>
+                            </div>
                         </div>
                     </div>
                     <div className="offer-box">

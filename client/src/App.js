@@ -7,6 +7,7 @@ import Admin from "./components/admin/Admin"
 import AddNew from "./components/admin/AddNew"
 import AddOffer from "./components/admin/AddOffer"
 import Product from "./components/product/Product"
+import MainDish from "./components/categories/MainDish";
 import { Router } from "@reach/router";
 import Footer from './components/footer/Footer';
 
@@ -20,6 +21,7 @@ class App extends React.Component {
         <AddNew path="/addnew" />
         <AddOffer path="/addoffer" />
         <Product path="/product" />
+        {/* <MainDish path="/maindish" />; */}
         <Main path="/*" />
       </Router>
     );

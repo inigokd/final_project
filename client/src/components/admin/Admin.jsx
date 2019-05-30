@@ -9,7 +9,7 @@ const Admin = props => {
         <div>
             <div className="admin-dashboard">
                 <Link to="/" className="add">Back Home</Link>
-                <Link to="/addnew" className="add">Add New Peoduct</Link>
+                <Link to="/addnew" className="add">Add New Product</Link>
                 <Link to="/addoffer" className="add">Add Offer</Link>
             </div>
        </div>

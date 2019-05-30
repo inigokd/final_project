@@ -6,45 +6,41 @@ import "./admin.css"
 
 class AddNew extends React.Component {
     render() {
-        return(
+        return (
             <div>
-            <Admin />
-            <div className="add-container">
-                <form action="" method="POST">
+                <Admin />
+                <div className="add-container">
                     <div className="add-contant">
                         <div className="add-box">
-                            <select name="Choose Product" id="" className="select-input">
-                                <option value="">{this.props.option1}</option>
-                                <option value="">Salad</option>
-                                <option value="">Pizza</option>
-                                <option value="">Smoothie</option>
-                                <option value="">Cookie</option>
+                            <select name="ChooseProduct" className="select-input">
+                                <option value="Main Dish">Main Dish</option>
+                                <option value="Sanal">Salad</option>
+                                <option value="Pizza">Pizza</option>
+                                <option value="Smoothie">Smoothie</option>
+                                <option value="Cookie">Cookie</option>
                             </select>
-                            <input type="text" placeholder="Product Name"/>
-                            <input type="aria-label" placeholder="Image"/>
-                            <textarea name="" id="" cols="15" rows="2">Description</textarea>
-                            <input type="number" placeholder="Price"/>
-                            <button className="wid-20">Add</button>
+                            <input name="prodtName" type="text" placeholder="Product Name" />
+                            <input name="prodImg" type="aria-label" placeholder="Image" />
+                            <textarea name="prodDesc" cols="15" rows="2">Description</textarea>
+                            <input name="prodPrice" type="number" placeholder="Price" />
+                            <button onClick={(e) => this.changeBG(0)} className="wid-20">Add</button>
                         </div>
                         <div className="product add-box">
                             <div className="img-box">image</div>
                             <span>Name</span>
                             <span>price</span>
                             <div>
-                               <button className="wid-20">edit</button>
-                                <button className="wid-20">delete</button> 
+                                <button className="wid-20">edit</button>
+                                <button className="wid-20">delete</button>
                             </div>
-                            
+
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
-        </div> 
         )
     }
 }
 
-AddNew.defaultProps = {
-    option1 : "Main Dish"
-}
+
 export default AddNew;
